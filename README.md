@@ -18,6 +18,12 @@ Or install it yourself as:
 
     $ gem install capistrano-erb-uplader
 
+Then add this line in your `Capfile`
+
+```ruby
+require 'capistrano/erb-uploader'
+```
+
 ## Usage
 
 You can list a bunch of ERB templates to parse and upload in your `deploy.rb` file.
