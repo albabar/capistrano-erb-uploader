@@ -1,4 +1,4 @@
-# Capistrano ERB Uplader
+# Capistrano ERB Uploader
 
 Parse various ERB template based configuration files and upload them with Capistrano.
 
@@ -7,7 +7,7 @@ Parse various ERB template based configuration files and upload them with Capist
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'capistrano-erb-uplader'
+gem 'capistrano-erb-uploader'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install capistrano-erb-uplader
+    $ gem install capistrano-erb-uplaader
 
 Then add this line in your `Capfile`
 
@@ -48,7 +48,7 @@ end
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/albabar/capistrano-erb-uplader.
+Bug reports and pull requests are welcome on GitHub at https://github.com/albabar/capistrano-erb-uplaader.
 
 ## License
 
