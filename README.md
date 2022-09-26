@@ -38,7 +38,7 @@ You might also use this on your own task:
 namespace :some do
   desc 'Some task to upload specialised erb files'
   task :task do
-    on rolse(:app)
+    on roles(:app)
       upload_erb 'config/deploy/templates/some.conf.erb', 'config/some.conf'  
       execute :sudo, 'service some restart'
     end
